@@ -4,11 +4,13 @@ namespace App\Http\Controllers\HomeSpace;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Model\Service as ServiceModel;
 
 class HomeController extends Controller
 {
     public function index(){
-        return view('home.home');
+        $service = ServiceModel::get();
+        return view('panel.service.create', ['service' => $service]);
     }
 
     public function about(){
@@ -24,6 +26,7 @@ class HomeController extends Controller
     }
 
     public function service(){
-        return view('home.service');
+        $service = ServiceModel::get();
+        return view('panel.service.create', ['service' => $service]);
     }
 }
