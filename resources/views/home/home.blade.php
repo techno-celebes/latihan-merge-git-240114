@@ -24,6 +24,36 @@
     </div>
 
 </section><!-- End Hero -->
+
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 ps-5 justify-content-center">
+                <div class="card shadow" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Pembuatan Web App</h5>
+                    <h6>Subscribe</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button class="btn btn-primary me-5"><a href="#" class="card-link text-white">Tambah</a></button>
+                    <button class="btn btn-danger"><a href="#" class="card-link text-white">Hapus</a></button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-5 ps-4 justify-content-center">
+                <div class="card shadow" style="width: 19rem;">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Pembuatan Machine learning</h5>
+                    <h6>Subscribe</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk </p>
+                    <button class="btn btn-primary me-5"><a href="#" class="card-link text-white">Tambah</a></button>
+                    <button class="btn btn-danger"><a href="#" class="card-link text-white">Hapus</a></button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -31,7 +61,7 @@
         <div class="container" data-aos="fade-up">
             <div class="row gx-0">
 
-                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-3 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h3>Who We Are</h3>
                         <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
@@ -47,9 +77,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="theme/home/assets/img/about.jpg" class="img-fluid" alt="">
-                </div>
+                {{-- <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="theme/home/assets/img/about.jpg" class="img-fluid" alt="" style="width: 30rem">
+                </div> --}}
 
             </div>
         </div>
