@@ -18,7 +18,7 @@
                             </svg></div>
                         <form method="POST" action="{{ route('register') }}">
                             @csrf
-                            <div class="mb-3"><input class="form-control" type="text" name="Name" placeholder="Name"></div>
+                            <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Name"></div>
                             <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email"></div>
                             <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Password"></div>
                             <div class="mb-3"><input class="form-control" type="password" name="password_confirmation" placeholder="Confirm Password"></div>
