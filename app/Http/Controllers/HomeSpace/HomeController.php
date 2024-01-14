@@ -27,6 +27,19 @@ class HomeController extends Controller
 
     public function service(){
         $service = ServiceModel::get();
-        return view('panel.service.create', ['service' => $service]);
+        return view('home.service', ['service' => $service]);
+    }
+    public function create_service(Request $request)
+    {
+        $service_name = $request->namabarang;
+        $description = $request->hargajual;
+        $pricing = $request->pricing;
+
+        $k = new ServiceModel();
+        $k->service_name = $service_name;
+        $k->description = $description;
+        $k->pricing = $pricing;
+        $k->save();
+        return redirect()->route('service-get');
     }
 }
