@@ -9,10 +9,10 @@
 
       <nav id="navbar" class="navbar navbar-expand-lg">
         <ul>
-          <li><a class="nav-link scrollto active" href="#">Home</a></li>
-          <li><a class="nav-link scrollto" href="#">About</a></li>
-          <li><a class="nav-link scrollto" href="#">Contact</a></li>
-          <li><a class="nav-link scrollto" href="3">Pricing</a></li>
+          <li><a class="nav-link scrollto active" href="{{ route('home') }}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('about') }}">About</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('service') }}">Contact</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('pricing') }}">Pricing</a></li>
           <li class="dropdown"><a href="#"><span>Product</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Premium Parfum</a></li>
@@ -20,7 +20,7 @@
               <li><a href="#">Haram Parfum</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#">login</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('pricing') }}">login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+                <img src="theme/home/assets/img/hero-img.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                    <img src="theme/home/assets/img/about.jpg" class="img-fluid" alt="">
                 </div>
 
             </div>
