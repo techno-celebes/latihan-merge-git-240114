@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function index(){
         $service = ServiceModel::get();
-        return view('panel.service.create', ['service' => $service]);
+        return view('home.home', ['pocong' => $service]);
     }
 
     public function about(){
