@@ -18,4 +18,5 @@ Auth::routes();
 Route::get('/', 'HomeSpace\HomeController@index')->name('home');
 Route::get('/about', 'HomeSpace\HomeController@about')->name('about');
 Route::get('/service', 'HomeSpace\HomeController@service')->name('service');
+Route::get('/pricing', 'HomeSpace\HomeController@pricing')->name('pricing');
 Route::get('/contact', 'HomeSpace\HomeController@contact')->name('contact');
