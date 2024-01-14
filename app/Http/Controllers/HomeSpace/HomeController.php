@@ -22,7 +22,8 @@ class HomeController extends Controller
     }
 
     public function pricing(){
-        return view('home.pricing');
+        $service = ServiceModel::get();
+        return view('home.pricing', ['service' => $service]);
     }
 
     public function service(){
