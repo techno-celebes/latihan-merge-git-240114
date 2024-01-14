@@ -8,7 +8,8 @@
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" class="img-fluid" alt="Sample image">
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                <form>
+                <form ction="{{ route('login') }}" method="post">
+                    @csrf
                     <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                         <p class="lead fw-normal mb-0 me-3" data-aos="fade-left">Sign in with</p>
                         <button type="button" class="btn btn-primary btn-floating mx-1" data-aos="fade-left" data-aos-duration="3000">
