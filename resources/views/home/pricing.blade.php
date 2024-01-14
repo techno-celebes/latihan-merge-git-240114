@@ -30,18 +30,12 @@
                 </tr>
             </thead>
             <tbody>
+                @foreach($service as $a)
                 <tr>
                     <td>Parfum Premium</td>
                     <td>Rp 50.000</td>
                 </tr>
-                <tr>
-                    <td>Parfum Arabia</td>
-                    <td>Rp 75.000</td>
-                </tr>
-                <tr>
-                    <td>Parfum Saja</td>
-                    <td>Rp 60.000</td>
-                </tr>
+                @endforeach
             </tbody>
             </table>
         </div>
