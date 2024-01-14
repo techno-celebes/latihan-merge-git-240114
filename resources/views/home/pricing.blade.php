@@ -32,8 +32,8 @@
             <tbody>
                 @foreach($service as $a)
                 <tr>
-                    <td>Parfum Premium</td>
-                    <td>Rp 50.000</td>
+                    <td>{{ $a-> service_name}}</td>
+                    <td>Rp. {{ number_format($a-> pricing),2,'.',','}}</td>
                 </tr>
                 @endforeach
             </tbody>
