@@ -21,7 +21,12 @@ Route::get('/service', 'HomeSpace\HomeController@service')->name('service');
 Route::get('/pricing', 'HomeSpace\HomeController@pricing')->name('pricing');
 Route::get('/contact', 'HomeSpace\HomeController@contact')->name('contact');
 
+Route::post('create-service','HomeSpace\HomeController@create_service')->name('create-service');
+
 
 Route::prefix('panel')->group(function () {
     Route::get('/',"PanelSpace\PanelController@dashboard")->name("dashboard");
+    Route::get('/service', 'HomeSpace\HomeController@service')->name("service-get");
+
+    Route::post('create-service','HomeSpace\HomeController@create_service')->name('service');
 });

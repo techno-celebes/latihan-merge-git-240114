@@ -26,7 +26,7 @@
 </section><!-- End Hero -->
 
 <section>
-    <div class="container">
+    <div class="container" >
         <div class="row justify-content-center">
             @foreach($pocong as $p)
             <div class="col-lg-5 d-flex justify-content-center">
