@@ -24,6 +24,7 @@
   <link href="theme/home/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="theme/home/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="theme/home/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Template Main CSS File -->
   <link href="theme/home/assets/css/style.css" rel="stylesheet">
@@ -42,7 +43,10 @@
   <script src="theme/home/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="theme/home/assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="theme/home/assets/vendor/php-email-form/validate.js"></script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- Template Main JS File -->
   <script src="theme/home/assets/js/main.js"></script>
 
