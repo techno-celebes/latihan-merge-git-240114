@@ -20,7 +20,7 @@
               <li><a href="#">Haram Parfum</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="{{ route('pricing') }}">login</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('login') }}">login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
