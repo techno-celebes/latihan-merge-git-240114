@@ -1,8 +1,8 @@
 @extends('master.master_home')
 @section('content')
-<div class="container-fluid" style="margin-top: 100px;">
+<div class="container" style="margin-top: 100px;">
   <div class="row">
-    <div class="col-4">
+    <div class="col-4" style="background: skyblue;">
       <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
         <div>
               <h4 class="title">Lorem Ipsum</h4>
