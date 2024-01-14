@@ -1,21 +1,54 @@
 @extends('master.master_home')
 @section('content')
+<section id="about" class="about">
 
-<section class="bg-light pt-5 pb-4 text-white">
-      <h6 class="fs-1 text-dark text-center justify-content-center" style="margin-top: 90px; padding-bottom: 50px;">About as</h6>
-      <hr>
-    <div class="container-fluid text-center" style="margin-top: 8cap; margin-bottom: 2cap;">
-      <div class="row text-center text-md-left">
-        <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-3">
-          <h5 class="font-weight-bold text-dark" style="text-align: left;">About</h5>
-          <strong><p class="text-dark" style="text-align: left;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis officiis perspiciatis vero laudantium illum sapiente! Sunt totam Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deleniti facilis provident iure earum maxime in nesciunt reiciendis maiores facere mollitia eos nobis, ipsam dolores! Nisi, aliquid! Optio, sapiente molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam distinctio tempora sint mollitia aut, molestiae corporis voluptatum repellat asperiores voluptatem sapiente consequuntur ad. Suscipit corporis a minus</p></strong>
-        </div>
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
-          <img src="../../image/about.jpg" style="width: 100%;" alt="logo">
-        </div>
-        </div>
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0" style="margin-top: 50px;">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200" >
+            <div class="content">
+              <h2>About Us</h2>
+              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
+              <p>
+                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+              </p>
+
+              <div class="belalang" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-github"></i>
+              </div>
+
+              <div class="kuda text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="300">
+            <img src="../../img/about.jpg" class="img-fluid" alt="image" style="width: 50rem">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <style>
+      .belalang i{
+        font-size: 2em;
+        margin-right: 17px;
+        color: black;
+      }
+
+      .belalang i:hover{
+        color: blue;
+      }
+
+      .kuda{
+        margin-top: 20px;
+      }
+    </style>
 @endsection
