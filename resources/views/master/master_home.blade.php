@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>FlexStart Bootstrap Template - Index</title>
+  <title>Toko Parfum ||  Mancaa</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -23,6 +23,7 @@
   <link href="theme/home/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="theme/home/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="theme/home/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="theme/home/assets/font-awesome-4.7.0/css/font-awesome.min.css">
 
   <!-- Template Main CSS File -->
   <link href="theme/home/assets/css/style.css" rel="stylesheet">
