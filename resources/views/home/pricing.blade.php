@@ -25,6 +25,7 @@
             <table>
             <thead>
                 <tr>
+                    <th>No</th>   
                     <th>Nama</th>
                     <th>Harga</th>
                 </tr>
@@ -32,8 +33,9 @@
             <tbody>
                 @foreach($service as $a)
                 <tr>
+                    <td>{{ $a-> service_id}}</td>
                     <td>{{ $a-> service_name}}</td>
-                    <td>Rp. {{ number_format($a-> pricing),2,'.',','}}</td>
+                    <td>Rp. {{ number_format($a-> pricing),2,',','.'}}</td>
                 </tr>
                 @endforeach
             </tbody>
